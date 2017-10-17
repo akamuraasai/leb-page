@@ -101,7 +101,7 @@ const Home = () => (
       <Particles params={params} style={styles.particles} />
     </div>
     <Container text textAlign="center" style={styles.div}>
-      <Image src="http://via.placeholder.com/80x80" centered/>
+      <Image src="https://via.placeholder.com/80x80" centered/>
       <Header as='h5' inverted content='CONGRESSO DO MESTRE DESENVOLVEDOR' style={styles.title}/>
       <Header as='h1' inverted content='Aqui ficará o contador' style={styles.counter} />
       <Header as='h4' inverted content='Não fique de fora desse evento que promete revolucionar sua vida!' style={styles.call} />
