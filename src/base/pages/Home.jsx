@@ -41,7 +41,7 @@ const styles = {
   },
   title: {
     fontFamily: 'Lato, sans-serif',
-    fontWeight: 100,
+    fontWeight: 300,
     fontSize: 10,
     paddingTop: 50,
   },
@@ -56,7 +56,7 @@ const styles = {
   },
   button: {
     fontFamily: 'Lato, sans-serif',
-    fontWeight: 100,
+    fontWeight: 300,
     fontSize: 12,
     marginTop: 20,
     paddingTop: 15,

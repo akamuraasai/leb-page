@@ -23,7 +23,7 @@ const styles = {
   },
   text: {
     fontSize: 16,
-    fontWeight: 100,
+    fontWeight: 300,
     marginTop: -16,
     color: '#FFF'
   },
@@ -34,7 +34,7 @@ const styles = {
   },
   text2: {
     fontSize: 12,
-    fontWeight: 100,
+    fontWeight: 300,
     marginTop: -16,
   },
   column: {
