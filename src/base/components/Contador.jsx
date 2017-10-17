@@ -14,7 +14,6 @@ const styles = {
     marginRight: 'auto',
     marginLeft: 'auto',
     marginBottom: 14,
-    // padding: 30,
   },
   value: {
     fontSize: 50,
@@ -51,7 +50,6 @@ class Contador extends React.Component {
     };
   }
 
-
   componentDidMount() {
     this.timerID = setInterval(
       () => this.tick(),
@@ -77,13 +75,13 @@ class Contador extends React.Component {
       <div style={styles.main}>
         <Grid verticalAlign="middle">
           <Grid.Row style={{marginLeft: 4}}>
-            <Grid.Column width={5} textAlign="left" style={styles.column}>
+            <Grid.Column width={4} textAlign="left" style={styles.column}>
               <Header color="teal" dividing style={styles.value}>
                 <p style={{color: '#FFF', lineHeight: '1em'}}>{distancia.split(' ')[0]}</p>
               </Header>
               <Header inverted content="Dias" style={styles.text}/>
             </Grid.Column>
-            <Grid.Column width={11} textAlign="left" style={styles.column}>
+            <Grid.Column width={12} textAlign="left" style={styles.column}>
               <Grid>
                 <Grid.Column width={1} textAlign="left" style={styles.column}/>
                 <Grid.Column width={5} textAlign="left" style={styles.column}>
